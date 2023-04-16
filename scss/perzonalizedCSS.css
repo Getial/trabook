@@ -1,0 +1,50 @@
+.hero {
+  height: 765px;
+}
+.title-hero {
+  font-size: 64px;
+}
+.hero p {
+  font-size: 26px;
+}
+.elipse {
+  width: 500px; 
+  height: 250px; 
+  border: none; 
+  background: #fd7e14;
+  border-radius: 0 0 500px 500px;
+}
+
+@media screen and ( max-width:1024px ){
+  .hero {
+    height: 700px;
+  }
+  .title-hero {
+    font-size: 56px;
+  }
+  .hero p {
+    font-size: 18px;
+  }
+  .elipse {
+    width: 400px; 
+    height: 200px;
+    border-radius: 0 0 400px 400px;
+  }
+}
+
+@media screen and ( max-width:780px ){
+  .hero {
+    height: 600px;
+  }
+  .title-hero {
+    font-size: 42px;
+  }
+  .hero p {
+    font-size: 14px;
+  }
+  .elipse {
+    width: 300px; 
+    height: 150px;
+    border-radius: 0 0 300px 300px;
+  }
+}
