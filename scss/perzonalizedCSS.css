@@ -52,6 +52,7 @@
 
 .third-section .carrusel > div {
   width: 22%;
+  height: 380px;
   background: #FEFCFB;
   border: 2px solid rgba(102, 102, 102, 0.08);
   border-radius: 8px;
@@ -76,25 +77,30 @@
 
 .fourth-section .carrusel > div {
   width: 30%;
-  height: 320px;
+  height: 400px;
   background: #FEFCFB;
   border: 2px solid rgba(102, 102, 102, 0.08);
   border-radius: 8px;
 }
 
 .trees {
-  top: 14%;
+  top: 5%;
   right: 25%;
 }
 
 .btns-fourth-section {
-  top: 30%;
+  top: 25%;
   right: 10%;
 }
 
 .fifth-section {
   width: 100%;
   height: 650px;
+}
+
+.card-container img {
+  top: -40%;
+  left: -15%;
 }
 
 .card-container:nth-child(1) {
@@ -121,7 +127,7 @@
 
 .sixth-section .carrusel > div {
   width: 22%;
-  height: 320px;
+  height: 360px;
   background: #FEFCFB;
   border: 2px solid rgba(102, 102, 102, 0.08);
   border-radius: 8px;
@@ -221,12 +227,27 @@ footer {
     width: 20%;
     margin: 10px
   }
+  .third-section .carrusel > div {
+    height: 300px;
+  }
   .fourth-section {
     height: 600px;
   }
+  .fourth-section .carrusel > div {
+    height: 300px;
+  }
   .trees {
-    top: 12%;
+    top: 5%;
     right: 19%;
+  }
+  
+  .btns-fourth-section {
+    top: 30%;
+    right: 10%;
+  }
+  .card-container img {
+    top: -20%;
+    left: -15%;
   }
   .sixth-section {
     height: 600px;
@@ -260,6 +281,9 @@ footer {
   }
   .fourth-section {
     height: 500px;
+  }
+  .fourth-section .carrusel > div {
+    height: 260px;
   }
   .sixth-section {
     height: 500px;
